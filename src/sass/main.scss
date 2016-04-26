@@ -11,7 +11,12 @@ header {
 }
 
 .infoContainer h2 {
-  text-align: center
+  text-align: center;
+}
+
+.info {
+  margin: 20 0px;;
+  text-align: center;
 }
 
 ul {
@@ -28,11 +33,25 @@ li {
   margin: 5px 0;
 }
 
+
 .storyContainer h2 {
   text-align: center;
 }
 
+.storyContainer p {
+
+}
+
+.story {
+  padding: 10px;
+  margin-right: 35%;
+  position: relative;
+}
+
 .storyContainer img {
+  position: absolute;
+  top: 25px;
+  right: -125px;
   width: 110px;
   border-radius: 100%;
 }
