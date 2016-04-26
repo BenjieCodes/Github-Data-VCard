@@ -1,0 +1,38 @@
+body {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: RGBA(243, 243, 243, 1.00);
+}
+
+header {
+  text-align: center;
+  background: RGBA(29, 29, 29, 1.00);
+  color: white;
+}
+
+.infoContainer h2 {
+  text-align: center
+}
+
+ul {
+  list-style: none;
+  font-size: 14px;
+}
+
+ul span {
+  color: RGBA(102, 159, 159, 1.00);
+  font-weight: bold;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.storyContainer h2 {
+  text-align: center;
+}
+
+.storyContainer img {
+  width: 110px;
+  border-radius: 100%;
+}
