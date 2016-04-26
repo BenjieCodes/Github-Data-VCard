@@ -1,4 +1,11 @@
 import $ from 'jquery';
+import token from "./github-token";
+
+$.ajaxSetup({
+  headers: {
+    Authorization: "token " + token
+  }
+});
 
 var url = 'https://api.github.com/users/benjiecodes';
 
